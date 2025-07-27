@@ -2,11 +2,11 @@
   padding: 1rem 1rem 0 1rem;
   display: flex;
   gap: 1rem;
+  transition: background-color 0.3s ease;
 }
 
 .chat:hover {
-  /* background-color: #202c33; */
-  background-color: #202c3390;
+  background-color: rgba(226, 232, 240, 0.6); /* soft hover using var(--color-message-received) */
   cursor: pointer;
 }
 
@@ -26,6 +26,7 @@
   justify-content: center;
   align-items: center;
   margin-top: -1rem;
+  background-color: var(--color-message-received);
 }
 
 .chat .img {
@@ -34,7 +35,7 @@
 
 .chat .img.non-present,
 .chat .group-img {
-  border: 2px solid #415763;
+  border: 2px solid var(--color-accent); /* Indigo border */
 }
 
 .chat .chat-info {
@@ -50,14 +51,14 @@
 }
 
 .chat .date {
-  color: #8696a0;
+  color: #6b7280; /* gray-500 for lighter text */
   font-size: 0.75rem;
 }
 
 .chat .last-message {
   padding-bottom: 1rem;
-  border-bottom: 1px solid #415763;
-  color: #8696a0;
+  border-bottom: 1px solid #e2e8f0; /* soft border bottom */
+  color: #6b7280; /* muted gray */
   font-size: 0.75rem;
   display: flex;
   align-items: center;
@@ -66,11 +67,11 @@
 }
 
 .chat .last-message.active-chat {
-  color: #d1d7db;
+  color: var(--color-text); /* darker on active */
 }
 
 .chat.active-chat {
-  background-color: #202c33;
+  background-color: #e0e7ff; /* light indigo background */
 }
 
 .chat .last-message .last-message-file {

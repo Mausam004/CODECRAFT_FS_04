@@ -1,5 +1,5 @@
 .friend-requests {
-  background-color: #111b21;
+  background-color:white;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -50,29 +50,30 @@
 .friend-requests .search-form {
   position: relative;
 }
-
 .friend-requests .search-icon {
   position: absolute;
   top: 0.6rem;
   left: 0.8rem;
-  color: #e9edef;
+  color: var(--color-text);
   width: 1.5rem;
 }
+
 
 .friend-requests .search-form .search-go-back-arrow {
   cursor: pointer;
 }
 
 .friend-requests .search-input {
-  background-color: #202c33;
+  background-color: var(--color-message-received); /* match chat input */
   height: 2.5rem;
   text-indent: 2.5rem;
   border-radius: 10px;
-  color: #e9edef;
+  color: var(--color-text); /* match chat input */
   width: 100%;
   border: none;
   outline: none;
 }
+
 
 .friend-requests .search-input:focus {
   border: none;

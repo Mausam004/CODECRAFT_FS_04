@@ -1,5 +1,5 @@
 .left-sidebar {
-  background-color: #222e35;
+  background: linear-gradient(135deg, #c7d2fe, #fbcfe8); 
   height: 100%;
   width: 5%;
   display: flex;
@@ -47,17 +47,20 @@
 
 .left-sidebar .icon:hover {
   cursor: pointer;
-  background-color: #41576380;
+  background-color: #f3d1e6; /* light pink-purple hover */
 }
+
+.left-sidebar .active-icon,
+.left-sidebar .active-icon:hover {
+  background-color: #d1b3f3; /* soft purple for active state */
+  color:black;
+}
+
 
 .left-sidebar .between-icon-vertical-space-filler {
   height: 60%;
 }
 
-.left-sidebar .active-icon,
-.left-sidebar .active-icon:hover {
-  background-color: #415763;
-}
 
 .left-sidebar .tooltip {
   position: relative;
