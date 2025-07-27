@@ -34,8 +34,15 @@ CSS:– Custom Styling for Responsive Web UI
 
 🔐 Auth Page (Register & Login)
 Allows users to create an account or log in using their email and password. Authentication is secured using JWT, and passwords are encrypted using bcrypt.
-<img width="937" height="550" alt="image" src="https://github.com/user-attachments/assets/981a43ba-db33-4df1-8262-4caa557bda59" />
-<img width="937" height="550" alt="image" src="https://github.com/user-attachments/assets/ec46bec9-e3ea-474d-a4d2-b62733da7382" />
+<img width="997" height="560" alt="image" src="https://github.com/user-attachments/assets/b3b5b14c-6a04-4348-bd5a-549f9edc77fe" />
+<img width="1037" height="588" alt="image" src="https://github.com/user-attachments/assets/e0dbe74a-5608-4b54-a867-4bb441f1a73a" />
+
+🏠 Landing Page
+Introductory screen that welcomes users and gives a quick overview of the application. Users are directed to log in or sign up from here.
+<img width="1157" height="926" alt="image" src="https://github.com/user-attachments/assets/7724199a-0127-432c-9363-87239ef14b94" />
+
+
+
 
 
 
