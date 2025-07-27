@@ -33,13 +33,26 @@ Bcrypt + JWT:– Password Encryption and Token-Based Authentication
 CSS:– Custom Styling for Responsive Web UI
 
 🔐 Auth Page (Register & Login)
+
 Allows users to create an account or log in using their email and password. Authentication is secured using JWT, and passwords are encrypted using bcrypt.
 <img width="997" height="560" alt="image" src="https://github.com/user-attachments/assets/b3b5b14c-6a04-4348-bd5a-549f9edc77fe" />
 <img width="1037" height="588" alt="image" src="https://github.com/user-attachments/assets/e0dbe74a-5608-4b54-a867-4bb441f1a73a" />
 
-🏠 Landing Page
-Introductory screen that welcomes users and gives a quick overview of the application. Users are directed to log in or sign up from here.
+🧭 Dashboard Page
+
+Provides users with access to all core features after login, including searching users, viewing previous chats, adding new friends, creating groups, and managing their profile — all within a clean, responsive interface.
 <img width="1157" height="926" alt="image" src="https://github.com/user-attachments/assets/7724199a-0127-432c-9363-87239ef14b94" />
+
+💬 Real-Time Chat Interface
+
+Enables users to send and receive messages instantly using Socket.IO, supporting both one-on-one and group chats with live updates and smooth, real-time communication.
+<img width="1230" height="914" alt="image" src="https://github.com/user-attachments/assets/cab84167-6313-442c-8841-18a4580fea0f" />
+
+🧑 Profile Page
+Allows users to view and update their personal details such as first name, last name. Changes are saved securely and reflected across the chat interface.
+<img width="552" height="756" alt="image" src="https://github.com/user-attachments/assets/985c116d-44dd-4f10-9774-395ab4f905a1" />
+
+
 
 
 
