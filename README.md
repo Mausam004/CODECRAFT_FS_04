@@ -49,6 +49,7 @@ Enables users to send and receive messages instantly using Socket.IO, supporting
 <img width="1230" height="914" alt="image" src="https://github.com/user-attachments/assets/cab84167-6313-442c-8841-18a4580fea0f" />
 
 🧑 Profile Page
+
 Allows users to view and update their personal details such as first name, last name. Changes are saved securely and reflected across the chat interface.
 <img width="552" height="756" alt="image" src="https://github.com/user-attachments/assets/985c116d-44dd-4f10-9774-395ab4f905a1" />
 
